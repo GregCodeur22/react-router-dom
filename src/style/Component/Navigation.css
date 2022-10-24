@@ -1,0 +1,23 @@
+.nav li a,ul{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+
+.display{
+    position: absolute;
+    left: 70px;
+    top: 20px;
+   /* visibility: hidden; */
+}
+
+.display-user:hover{
+    visibility: visible;
+}
